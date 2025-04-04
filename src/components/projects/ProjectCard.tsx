@@ -48,17 +48,18 @@ const ProjectDashboard: React.FC = () => {
                   <span className="idText">ID: {project.id}</span>
                 </div>
 
-                <div className="progressBar">
-                  <span className="progressBarNumber">07</span>
-                  <div className="progressTrack">
+                <div className="progress-container">
+                  <span className="progress-label">07</span>
+                  <div className="progress-bar">
                     <div
-                      className="progressFill"
+                      className="progress-fill"
                       style={{ width: `${project.progress}%` }}
-                    >
-                      {project.progress}%
+                    ></div>
+                    <div className="progress-text">
+                      <span>{project.progress}%</span>
                     </div>
                   </div>
-                  <span className="progressBarNumber">14</span>
+                  <span className="progress-label">14</span>
                 </div>
 
                 <div className="dateRange">
