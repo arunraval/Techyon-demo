@@ -1,0 +1,154 @@
+{
+    "Not Started": [
+        {
+            "id": "P-11",
+            "name": "Project Name",
+            "progress": 50,
+            "startDate": "01/01/2024",
+            "endDate": "31/01/2024",
+            "files": 12,
+            "teamMembers": "10+"
+        },
+        {
+            "id": "P-12",
+            "name": "Project Alpha",
+            "progress": 30,
+            "startDate": "05/01/2024",
+            "endDate": "15/02/2024",
+            "files": 8,
+            "teamMembers": "5+"
+        },
+        {
+            "id": "P-13",
+            "name": "Project Beta",
+            "progress": 75,
+            "startDate": "10/01/2024",
+            "endDate": "20/02/2024",
+            "files": 20,
+            "teamMembers": "15+"
+        },
+        {
+            "id": "P-14",
+            "name": "Project Gamma",
+            "progress": 90,
+            "startDate": "15/01/2024",
+            "endDate": "28/02/2024",
+            "files": 5,
+            "teamMembers": "3+"
+        }
+    ],
+    "In Progress": [
+        {
+            "id": "P-11",
+            "name": "Project Name",
+            "progress": 50,
+            "startDate": "01/01/2024",
+            "endDate": "31/01/2024",
+            "files": 12,
+            "teamMembers": "10+"
+        },
+        {
+            "id": "P-12",
+            "name": "Project Alpha",
+            "progress": 30,
+            "startDate": "05/01/2024",
+            "endDate": "15/02/2024",
+            "files": 8,
+            "teamMembers": "5+"
+        },
+        {
+            "id": "P-13",
+            "name": "Project Beta",
+            "progress": 75,
+            "startDate": "10/01/2024",
+            "endDate": "20/02/2024",
+            "files": 20,
+            "teamMembers": "15+"
+        },
+        {
+            "id": "P-14",
+            "name": "Project Gamma",
+            "progress": 90,
+            "startDate": "15/01/2024",
+            "endDate": "28/02/2024",
+            "files": 5,
+            "teamMembers": "3+"
+        }
+    ],
+    "Completed": [
+        {
+            "id": "P-11",
+            "name": "Project Name",
+            "progress": 50,
+            "startDate": "01/01/2024",
+            "endDate": "31/01/2024",
+            "files": 12,
+            "teamMembers": "10+"
+        },
+        {
+            "id": "P-12",
+            "name": "Project Alpha",
+            "progress": 30,
+            "startDate": "05/01/2024",
+            "endDate": "15/02/2024",
+            "files": 8,
+            "teamMembers": "5+"
+        },
+        {
+            "id": "P-13",
+            "name": "Project Beta",
+            "progress": 75,
+            "startDate": "10/01/2024",
+            "endDate": "20/02/2024",
+            "files": 20,
+            "teamMembers": "15+"
+        },
+        {
+            "id": "P-14",
+            "name": "Project Gamma",
+            "progress": 90,
+            "startDate": "15/01/2024",
+            "endDate": "28/02/2024",
+            "files": 5,
+            "teamMembers": "3+"
+        }
+    ],
+    "Archived": [
+        {
+            "id": "P-11",
+            "name": "Project Name",
+            "progress": 50,
+            "startDate": "01/01/2024",
+            "endDate": "31/01/2024",
+            "files": 12,
+            "teamMembers": "10+"
+        },
+        {
+            "id": "P-12",
+            "name": "Project Alpha",
+            "progress": 30,
+            "startDate": "05/01/2024",
+            "endDate": "15/02/2024",
+            "files": 8,
+            "teamMembers": "5+"
+        },
+        {
+            "id": "P-13",
+            "name": "Project Beta",
+            "progress": 75,
+            "startDate": "10/01/2024",
+            "endDate": "20/02/2024",
+            "files": 20,
+            "teamMembers": "15+"
+        },
+        {
+            "id": "P-14",
+            "name": "Project Gamma",
+            "progress": 90,
+            "startDate": "15/01/2024",
+            "endDate": "28/02/2024",
+            "files": 5,
+            "teamMembers": "3+"
+        }
+    ]
+}
