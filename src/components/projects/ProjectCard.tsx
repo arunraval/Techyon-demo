@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./projectCard.scss";
 import { calendar, clipFile, file } from "../common/commonImage";
-import projectsData from "../../data/projectData.json";
+import { useSelector } from "react-redux";
+import { RootState } from "../../store/store";
 
 const INITIAL_VISIBLE_COUNT = 3;
 
@@ -9,8 +10,10 @@ const imageUrl =
   "https://storage.googleapis.com/a1aa/image/lH_ei_CfFgDbuTS-_nLlDGXdf7cSayPFY6MBs6WgQwQ.jpg";
 
 const ProjectDashboard: React.FC = () => {
+  const projects = useSelector((state: RootState) => state.project.projects);
+
   const [visibleCount, setVisibleCount] = useState(
-    Object.keys(projectsData).reduce((acc, status) => {
+    Object.keys(projects).reduce((acc, status) => {
       acc[status] = INITIAL_VISIBLE_COUNT;
       return acc;
     }, {} as Record<string, number>)
@@ -24,7 +27,7 @@ const ProjectDashboard: React.FC = () => {
   };
   return (
     <div className="dashboardGrid">
-      {Object.entries(projectsData).map(([status, projects]) => (
+      {Object.entries(projects).map(([status, projects]) => (
         <div
           key={status}
           className={`statusColumn ${status.toLowerCase().replace(/\s/g, "")}`}
@@ -76,7 +79,7 @@ const ProjectDashboard: React.FC = () => {
                         <img src={imageUrl} alt="Team member" />
                       </div>
                     </div>
-                    <span>{project.teamMembers}</span>
+                    <span>{project.teamMembers}+</span>
                   </div>
 
                   <div className="fileSection">
