@@ -9,7 +9,6 @@
   border-radius: 8px;
 }
 
-// Shared styles
 .statusColumn {
   border-radius: 8px;
   padding: 10px;
@@ -108,13 +107,24 @@
   cursor: pointer;
 }
 
-// Project Card
-.projectCard {
-  background: white;
-  padding: 10px;
+.tasksCard {
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0px 0px 5px 1px #00000026;
   border: 1px solid #f1f1f1;
+  position: relative;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+    border-radius: 8px;
+
+    .container-demo {
+      padding: 10px;
+    }
+  }
 
   .cardHeader {
     display: flex;
@@ -123,7 +133,7 @@
     font-size: 1rem;
     font-weight: bold;
     color: #1f2937;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
 
     .idText {
       font-size: 12px;
@@ -257,5 +267,50 @@
       font-size: 12px;
       font-weight: bold;
     }
+  }
+}
+
+.tasksCard[data-label] {
+  &::before {
+    position: absolute;
+    top: 39px;
+    right: -8px;
+    content: "";
+    background: #283593;
+    height: 28px;
+    width: 28px;
+    transform: rotate(45deg);
+  }
+
+  &[data-label="On Track"] {
+    &::before,
+    &::after {
+      background: #cac000;
+    }
+  }
+
+  // ✅ Delayed (Red)
+  &[data-label="Delayed"] {
+    &::before,
+    &::after {
+      background: #f42e2e;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    content: attr(data-label);
+    top: 30px;
+    right: -14px;
+    padding: 7px;
+    width: 75px;
+    background: #3949ab;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+    border-radius: 4px;
   }
 }

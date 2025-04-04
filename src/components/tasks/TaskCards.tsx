@@ -36,52 +36,60 @@ const TasksDashboard: React.FC = () => {
 
           <div className="projectGrid">
             {projects.slice(0, visibleCount[status]).map((project) => (
-              <div className="projectCard" key={project.id}>
-                <div className="cardHeader">
-                  <div className="projectTitle">
-                    <img src={file} alt="" />
-                    <h3 className="projectName">{project.name}</h3>
-                  </div>
-                  <span className="idText">ID: {project.id}</span>
-                </div>
-
-                <div className="progressBar">
-                  <span className="progressBarNumber">07</span>
-                  <div className="progressTrack">
-                    <div
-                      className="progressFill"
-                      style={{ width: `${project.progress}%` }}
-                    >
-                      {project.progress}%
+              <div
+                className="tasksCard"
+                key={project.id}
+                data-label={project?.process || undefined}
+              >
+                <div className="container">
+                  <div className="container-demo">
+                    <div className="cardHeader">
+                      <div className="projectTitle">
+                        <img src={file} alt="" />
+                        <h3 className="projectName">{project.name}</h3>
+                      </div>
+                      <span className="idText">ID: {project.id}</span>
                     </div>
-                  </div>
-                  <span className="progressBarNumber">14</span>
-                </div>
 
-                <div className="dateRange">
-                  <img src={calendar} alt="" />
-                  {project.startDate} - {project.endDate}
-                </div>
-                <hr className="line" />
-                <div className="inline-section">
-                  <div className="teamSection">
-                    <div className="image-overlap-container">
-                      <div className="image-wrapper">
-                        <img src={imageUrl} alt="Team member" />
+                    <div className="progressBar">
+                      <span className="progressBarNumber">07</span>
+                      <div className="progressTrack">
+                        <div
+                          className="progressFill"
+                          style={{ width: `${project.progress}%` }}
+                        >
+                          {project.progress}%
+                        </div>
                       </div>
-                      <div className="image-wrapper overlapped">
-                        <img src={imageUrl} alt="Team member" />
+                      <span className="progressBarNumber">14</span>
+                    </div>
+
+                    <div className="dateRange">
+                      <img src={calendar} alt="" />
+                      {project.startDate} - {project.endDate}
+                    </div>
+                    <hr className="line" />
+                    <div className="inline-section">
+                      <div className="teamSection">
+                        <div className="image-overlap-container">
+                          <div className="image-wrapper">
+                            <img src={imageUrl} alt="Team member" />
+                          </div>
+                          <div className="image-wrapper overlapped">
+                            <img src={imageUrl} alt="Team member" />
+                          </div>
+                          <div className="image-wrapper overlapped">
+                            <img src={imageUrl} alt="Team member" />
+                          </div>
+                        </div>
+                        <span>{project.teamMembers}</span>
                       </div>
-                      <div className="image-wrapper overlapped">
-                        <img src={imageUrl} alt="Team member" />
+
+                      <div className="fileSection">
+                        <img src={clipFile} alt="" />
+                        <span>{project.files} Files</span>
                       </div>
                     </div>
-                    <span>{project.teamMembers}</span>
-                  </div>
-
-                  <div className="fileSection">
-                    <img src={clipFile} alt="" />
-                    <span>{project.files} Files</span>
                   </div>
                 </div>
               </div>

@@ -7,7 +7,8 @@
             "startDate": "01/01/2024",
             "endDate": "31/01/2024",
             "files": 12,
-            "teamMembers": "10+"
+            "teamMembers": "10+",
+            "process": "On Track"
         },
         {
             "id": "P-12",
@@ -16,7 +17,8 @@
             "startDate": "05/01/2024",
             "endDate": "15/02/2024",
             "files": 8,
-            "teamMembers": "5+"
+            "teamMembers": "5+",
+            "process": ""
         },
         {
             "id": "P-13",
@@ -25,7 +27,8 @@
             "startDate": "10/01/2024",
             "endDate": "20/02/2024",
             "files": 20,
-            "teamMembers": "15+"
+            "teamMembers": "15+",
+            "process": ""
         },
         {
             "id": "P-14",
@@ -34,7 +37,8 @@
             "startDate": "15/01/2024",
             "endDate": "28/02/2024",
             "files": 5,
-            "teamMembers": "3+"
+            "teamMembers": "3+",
+            "process": ""
         }
     ],
     "In Review": [
@@ -45,7 +49,8 @@
             "startDate": "01/01/2024",
             "endDate": "31/01/2024",
             "files": 12,
-            "teamMembers": "10+"
+            "teamMembers": "10+",
+            "process": "Delayed"
         },
         {
             "id": "P-12",
@@ -54,7 +59,8 @@
             "startDate": "05/01/2024",
             "endDate": "15/02/2024",
             "files": 8,
-            "teamMembers": "5+"
+            "teamMembers": "5+",
+            "process": ""
         },
         {
             "id": "P-13",
@@ -63,7 +69,8 @@
             "startDate": "10/01/2024",
             "endDate": "20/02/2024",
             "files": 20,
-            "teamMembers": "15+"
+            "teamMembers": "15+",
+            "process": ""
         },
         {
             "id": "P-14",
@@ -72,7 +79,8 @@
             "startDate": "15/01/2024",
             "endDate": "28/02/2024",
             "files": 5,
-            "teamMembers": "3+"
+            "teamMembers": "3+",
+            "process": ""
         }
     ],
     "In Revision": [
@@ -83,7 +91,8 @@
             "startDate": "01/01/2024",
             "endDate": "31/01/2024",
             "files": 12,
-            "teamMembers": "10+"
+            "teamMembers": "10+",
+            "process": ""
         },
         {
             "id": "P-12",
@@ -92,7 +101,8 @@
             "startDate": "05/01/2024",
             "endDate": "15/02/2024",
             "files": 8,
-            "teamMembers": "5+"
+            "teamMembers": "5+",
+            "process": ""
         },
         {
             "id": "P-13",
@@ -101,7 +111,8 @@
             "startDate": "10/01/2024",
             "endDate": "20/02/2024",
             "files": 20,
-            "teamMembers": "15+"
+            "teamMembers": "15+",
+            "process": ""
         },
         {
             "id": "P-14",
@@ -110,7 +121,8 @@
             "startDate": "15/01/2024",
             "endDate": "28/02/2024",
             "files": 5,
-            "teamMembers": "3+"
+            "teamMembers": "3+",
+            "process": ""
         }
     ],
     "Completed": [
@@ -121,7 +133,8 @@
             "startDate": "01/01/2024",
             "endDate": "31/01/2024",
             "files": 12,
-            "teamMembers": "10+"
+            "teamMembers": "10+",
+            "process": ""
         },
         {
             "id": "P-12",
@@ -130,7 +143,8 @@
             "startDate": "05/01/2024",
             "endDate": "15/02/2024",
             "files": 8,
-            "teamMembers": "5+"
+            "teamMembers": "5+",
+            "process": ""
         },
         {
             "id": "P-13",
@@ -139,7 +153,8 @@
             "startDate": "10/01/2024",
             "endDate": "20/02/2024",
             "files": 20,
-            "teamMembers": "15+"
+            "teamMembers": "15+",
+            "process": ""
         },
         {
             "id": "P-14",
@@ -148,7 +163,8 @@
             "startDate": "15/01/2024",
             "endDate": "28/02/2024",
             "files": 5,
-            "teamMembers": "3+"
+            "teamMembers": "3+",
+            "process": ""
         }
     ]
 }

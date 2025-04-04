@@ -27,10 +27,13 @@ function App() {
           </p>
         </div>
       </div>
-
+      {/*  AddProjectModal Modal*/}
       {openModal && <AddProjectModal onClose={() => setOpenModal(false)} />}
 
+      {/* Project Details */}
       <ProjectsMain />
+
+      {/* Tasks Details */}
       <TasksMain />
     </>
   );
